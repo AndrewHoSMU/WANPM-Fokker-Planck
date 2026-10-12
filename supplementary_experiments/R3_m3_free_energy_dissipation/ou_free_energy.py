@@ -22,7 +22,7 @@ estimator as transient/free_energy.py. It is checked on exact Gaussian samples f
 """
 import sys, os, json, time, argparse
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.abspath(os.path.join(HERE, '..', '..', 'rebuttal_stage1')))
+sys.path.insert(0, os.path.abspath(os.path.join(HERE, '..')))
 
 import numpy as np
 import torch

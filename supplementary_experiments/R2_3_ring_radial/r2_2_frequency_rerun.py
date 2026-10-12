@@ -1,4 +1,4 @@
-"""RERUN (2026-09-30) of rebuttal_stage1/R2_2_test_function_frequency/run_experiment.py with the
+"""RERUN (2026-09-30) of R2_2_test_function_frequency/run_experiment.py with the
 corrected ring drift of the revised Sec. 4.6 (radial drift -(r^2-r0^2)x instead of -2(r^2-r0^2)x).
 Everything else is unchanged.  Original docstring follows."""
 """
@@ -34,7 +34,7 @@ actually well-defined: trajectories of w^(k) in the 2D frequency plane, and
 how much they move.
 """
 import sys, os, json, time
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'rebuttal_stage1'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import numpy as np
 import torch
 import matplotlib

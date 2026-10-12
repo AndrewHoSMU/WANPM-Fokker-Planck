@@ -1,5 +1,5 @@
 """
-Shared building blocks for the rebuttal-stage1 experiments (JCOMP-D-26-00768).
+Shared building blocks for the experiments of this repository (JCOMP-D-26-00768).
 
 Implements the steady-state and time-dependent weak-adversarial neural
 pushforward method exactly as specified in main.tex (Sections 2-3):

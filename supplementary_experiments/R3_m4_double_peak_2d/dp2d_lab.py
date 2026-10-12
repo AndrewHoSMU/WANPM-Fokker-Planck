@@ -66,7 +66,7 @@ class Bank(nn.Module):
 
 # ---------------------------------------------------------------------------
 def metrics(x, a=A_TRUE):
-    # 2-D Hellinger on the grid of rebuttal_stage3 lowdim_muon.metrics_2d
+    # 2-D Hellinger on the grid of R3_M5_optimizer_comparison/lowdim_muon.metrics_2d
     lim, nb = 2.5, 120
     ed = np.linspace(-lim, lim, nb + 1); c = 0.5 * (ed[:-1] + ed[1:])
     H, _, _ = np.histogram2d(x[:, 0], x[:, 1], bins=[ed, ed]); ph = H / max(1, H.sum())

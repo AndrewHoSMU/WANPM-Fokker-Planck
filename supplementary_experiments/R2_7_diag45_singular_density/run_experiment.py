@@ -39,7 +39,7 @@ A standard-Gaussian base (gaussian_base_sampler) gives essentially the same resu
 (std along u 0.702, std along v 0.024).
 """
 import sys, os, json, time
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'rebuttal_stage1'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 import numpy as np
 import torch
 import torch.nn as nn

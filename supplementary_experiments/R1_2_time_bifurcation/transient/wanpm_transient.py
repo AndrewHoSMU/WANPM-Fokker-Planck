@@ -22,9 +22,9 @@ SGD adversary.
 """
 import sys, os, json, time, argparse
 HERE = os.path.dirname(os.path.abspath(__file__))
-CODES = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
-sys.path.insert(0, os.path.join(CODES, 'rebuttal_stage1'))
-sys.path.insert(0, os.path.join(CODES, 'rebuttal_stage4', 'R1_5_asymmetric_muon'))
+CODES = os.path.abspath(os.path.join(HERE, '..', '..'))   # supplementary_experiments/
+sys.path.insert(0, CODES)
+sys.path.insert(0, os.path.join(CODES, 'R1_5_asymmetric_muon'))
 
 import numpy as np
 import torch

@@ -47,8 +47,8 @@ Optional adversary-tuning control for the MLP arm:
 import sys, os, json, time, argparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, '..', '..', 'rebuttal_stage1'))
-sys.path.insert(0, os.path.join(HERE, '..', '..', 'rebuttal_stage3', 'R3_M5_optimizer_comparison'))
+sys.path.insert(0, os.path.join(HERE, '..'))
+sys.path.insert(0, os.path.join(HERE, '..', 'R3_M5_optimizer_comparison'))
 import numpy as np
 import torch
 import torch.nn as nn

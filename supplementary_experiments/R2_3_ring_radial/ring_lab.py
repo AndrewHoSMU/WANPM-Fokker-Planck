@@ -196,7 +196,7 @@ def metrics(x, a=A_TRUE):
     out['frac_outside'] = float((r > 3.0).mean())
     hh, _ = np.histogram(th, bins=36, range=(-np.pi, np.pi)); hh = hh / hh.sum()
     out['angular_tv'] = float(0.5 * np.abs(hh - 1 / 36).sum())
-    # 2-D Hellinger, same grid as rebuttal_stage3 lowdim_muon.metrics_2d
+    # 2-D Hellinger, same grid as R3_M5_optimizer_comparison/lowdim_muon.metrics_2d
     lim, nb = 3.5, 120
     ed = np.linspace(-lim, lim, nb + 1); cc = 0.5 * (ed[:-1] + ed[1:])
     H, _, _ = np.histogram2d(x[:, 0], x[:, 1], bins=[ed, ed]); ph = H / max(1, H.sum())

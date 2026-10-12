@@ -21,7 +21,7 @@ x-marginal has a large spurious spike at the transition state x=0 and
 under-resolved wells (results_kramers/kramers_plot.png).
 
 This is the SAME transition-state over-population artifact diagnosed in the
-R1.5 asymmetric-well study (rebuttal_stage4/R1_5_asymmetric_muon/RESULTS.md),
+R1.5 asymmetric-well study (R1_5_asymmetric_muon/RESULTS.md),
 whose two working fixes were:
   (1) a milder instance with the wells closer together, solved with the
       method completely unmodified;
@@ -55,7 +55,7 @@ Usage:
     python run_experiment_kramers_closer.py --a-well 0.7 [--epochs N] [--seeds S]
 """
 import sys, os, json, time, argparse
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'rebuttal_stage1'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 import numpy as np
 import torch
 import torch.nn as nn
@@ -285,7 +285,7 @@ class DiagMixedTestFunctions(nn.Module):
     the transition-state region (supply the sensitivity that suppresses the
     spurious x=0 spike). Diagonal-diffusion Lf; the manuscript's ridge form
     throughout, only phi differs. Mirrors
-    rebuttal_stage4/R1_5_asymmetric_muon/wavelet_testfuncs.py::MixedTestFunctions,
+    R1_5_asymmetric_muon/wavelet_testfuncs.py::MixedTestFunctions,
     adapted from isotropic a=sigma^2 I to a general diagonal a(x)."""
 
     def __init__(self, n_in, K, frac_wave=0.75, activation='gauss', init_scale=4.0,
@@ -379,7 +379,7 @@ def make_tf(config, seed):
 
 
 # ---------------------------------------------------------------------------
-# generator optimizer -- mirrors rebuttal_stage4/R1_5_asymmetric_muon/asym_muon.py
+# generator optimizer -- mirrors R1_5_asymmetric_muon/asym_muon.py
 # exactly: Muon on every 2-D hidden weight matrix, its internal AdamW (at the
 # manuscript's own generator lr) on all biases and the output layer.
 # ---------------------------------------------------------------------------

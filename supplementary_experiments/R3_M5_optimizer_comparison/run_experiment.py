@@ -43,7 +43,7 @@ Usage:
 """
 import sys, os, json, time, argparse, itertools
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'rebuttal_stage1'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 import numpy as np
 import torch
 from scipy.integrate import quad

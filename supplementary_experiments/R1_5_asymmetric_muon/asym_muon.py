@@ -1,7 +1,7 @@
 """
 R1.5 revisited with Muon: can the optimizer fix the asymmetric double well?
 
-BACKGROUND.  Stage 2's R1_5 (`rebuttal_stage2/R1_5_asymmetric_double_well/`)
+BACKGROUND.  Stage 2's R1_5 (`R1_5_asymmetric_double_well/`)
 is the weakest result in the rebuttal set.  On the tilted potential
 
     V(x) = (x^2 - 1)^2 + eps*x,   b(x) = -V'(x) = -4x^3 + 4x - eps,
@@ -13,7 +13,7 @@ in the SHALLOWER well, i.e. it got the direction of the asymmetry wrong, after
 11,134 s of training on a large configuration (d_base=8, hidden=(64,64),
 K=3000, M=8000, 75k epochs, Adam lr 2e-2).
 
-Stage 3 (`rebuttal_stage3/R3_M5_optimizer_comparison/`) then found that on the
+Stage 3 (`R3_M5_optimizer_comparison/`) then found that on the
 manuscript's own Sec. 4.2 (SYMMETRIC) double well, swapping the generator
 optimizer from Adam to Muon cut the Hellinger distance from 0.210 to 0.091.
 This script asks whether that carries over to the asymmetric case, which is a
@@ -60,7 +60,7 @@ Usage:
 import sys, os, json, time, argparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, '..', '..', 'rebuttal_stage1'))
+sys.path.insert(0, os.path.join(HERE, '..'))
 
 import numpy as np
 import torch
@@ -77,7 +77,7 @@ OUTDIR = os.path.join(HERE, 'results')
 os.makedirs(OUTDIR, exist_ok=True)
 
 # ---------------------------------------------------------------------------
-# Problem -- identical to rebuttal_stage2/R1_5_asymmetric_double_well
+# Problem -- identical to R1_5_asymmetric_double_well
 # ---------------------------------------------------------------------------
 EPS = 0.1
 SIGMA2 = 0.3          # this is `a`, the diffusion coefficient (see common_wanpm)
@@ -192,7 +192,7 @@ def sigma2_at_epoch(epoch, n_epochs, anneal=True, s2_start=SIGMA2_START,
 
 # ---------------------------------------------------------------------------
 # Optimizers.  The Muon parameter split mirrors
-# rebuttal_stage3/.../run_experiment.py::_split_muon_groups exactly: Muon on
+# .../run_experiment.py::_split_muon_groups exactly: Muon on
 # 2-D hidden weight matrices, its internal AdamW on all biases and on the
 # output layer.  On this (8,100,1) net that is one matrix, net.0.weight (100x8).
 # ---------------------------------------------------------------------------

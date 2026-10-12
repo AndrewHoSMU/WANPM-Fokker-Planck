@@ -188,7 +188,7 @@ def _selftest():
 
     import sys, os
     sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                    '..', '..', 'rebuttal_stage1'))
+                                    '..'))
     from common_wanpm import SteadyTestFunctions
     torch.manual_seed(7)
     ref = SteadyTestFunctions(n_in=1, K=16)

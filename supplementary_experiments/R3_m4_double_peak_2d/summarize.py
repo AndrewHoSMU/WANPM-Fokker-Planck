@@ -8,7 +8,7 @@ rows = []
 for p in sorted(glob.glob(os.path.join(L.OUTDIR, '*.json'))):
     r = json.load(open(p)); c = r['cfg']
     rows.append((r['tag'], c['bank'].count(',') > 0, c['M'], c['epochs'], r))
-old = os.path.join(L.HERE, '..', '..', 'rebuttal_stage3', 'R3_M5_optimizer_comparison',
+old = os.path.join(L.HERE, '..', 'R3_M5_optimizer_comparison',
                    'results_lowdim', 'dp2d_samples.npz')
 if os.path.exists(old):
     S = np.load(old)

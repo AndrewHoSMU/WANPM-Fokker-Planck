@@ -8,8 +8,10 @@ normalizing flow (t-NF), *"Solving Time Dependent Fokker-Planck Equations via
 Temporal Normalizing Flow"*, Commun. Comput. Phys. 32 (2022) 401-423.
 
 **Headline figure:** [`results/E_compare_wanpm_tnf.png`](results/E_compare_wanpm_tnf.png)
-— Monte Carlo reference / WANPM / t-NF, heatmaps only, case E (σ=1), t ∈
-{0.05, 0.1, 0.2, 0.5, 1}.
+— reference / WANPM / t-NF, heatmaps only, case E (σ=1), at the four snapshot
+times shown in the manuscript, t ∈ {0.05, 0.2, 0.5, 1}; the version with all five
+snapshot times (t = 0.1 included) is `results/E_compare_wanpm_tnf_5times.png`. The
+metrics tables below list all five times.
 
 **Loss-curve figure:** [`results/E_loss_comparison.png`](results/E_loss_comparison.png)
 — WANPM's training loss (left) vs. t-NF's L_r/L_ic (right), same run.

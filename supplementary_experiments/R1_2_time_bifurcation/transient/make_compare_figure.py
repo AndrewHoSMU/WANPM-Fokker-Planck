@@ -3,6 +3,9 @@ No marginal-distribution row -- heatmaps only, per user request. The top row is 
 computed by reference_fv.py (its cells coincide with the histogram bins of the two sample rows).
 
     python make_compare_figure.py --tnf-tag E_tnf_L4spl --wanpm-tag E_adam_saddle
+
+The manuscript figure (Sec. 4.11) shows four of the five snapshot times, t in {0.05, 0.2, 0.5, 1}
+(default of --times); pass --times 0.05,0.1,0.2,0.5,1 for all five (results/E_compare_wanpm_tnf_5times.png).
 """
 import os, argparse
 import numpy as np
@@ -18,10 +21,15 @@ ap = argparse.ArgumentParser()
 ap.add_argument('--case', default='E')
 ap.add_argument('--wanpm-tag', default='E_adam_saddle')
 ap.add_argument('--tnf-tag', default='E_tnf_L4spl')
+ap.add_argument('--times', default='0.05,0.2,0.5,1', help='comma-separated snapshot times to show')
 ap.add_argument('--out', default=None)
 args = ap.parse_args()
 
 times, xc, rho = FV.load_density(args.case)
+keep = [float(s) for s in args.times.split(',')]
+sel = [j for j, t in enumerate(times) if any(abs(float(t) - k) < 1e-9 for k in keep)]
+times = [times[j] for j in sel]
+rho = [rho[j] for j in sel]
 wanpm = np.load(os.path.join(OUT, f'{args.wanpm_tag}.npz'))
 tnf = np.load(os.path.join(OUT, f'{args.tnf_tag}.npz'))
 

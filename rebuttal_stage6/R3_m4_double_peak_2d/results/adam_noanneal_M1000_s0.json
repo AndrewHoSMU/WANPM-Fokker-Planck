@@ -1,0 +1,40 @@
+{
+ "cfg": {
+  "bank": "sin:120:1,gauss:20:4,mexhat:20:4,sech2:20:4,herm1:20:4",
+  "spread": 2.0,
+  "M": 1000,
+  "epochs": 20000,
+  "d_base": 16,
+  "hidden": [
+   32,
+   32
+  ],
+  "opt": "adam",
+  "lr": 0.01,
+  "head_lr": 0.01,
+  "anneal_from": null,
+  "a": 0.16,
+  "warm": 0.1,
+  "ramp": 0.55,
+  "adv_every": 10,
+  "adv_steps": 5,
+  "lr_test": 0.01,
+  "seed": 0,
+  "n_eval": 200000
+ },
+ "train_time_s": 456.55836606025696,
+ "loss_first": 0.7566683888435364,
+ "loss_final": 0.34463396668434143,
+ "diverged": false,
+ "hellinger": 0.9999999999761998,
+ "tv": 0.9999999999999999,
+ "frac_upper": 0.226115,
+ "stray_frac": 1.0,
+ "saddle_frac": 0.961795,
+ "stray_frac_true": 2.8288401997395445e-05,
+ "saddle_frac_true": 3.1827339141161304e-18,
+ "well_std_along_true": 0.07154171037648094,
+ "well_std_across_true": 0.07080132898971651,
+ "well_centre_true": 0.9949085549319678,
+ "tag": "adam_noanneal_M1000_s0"
+}

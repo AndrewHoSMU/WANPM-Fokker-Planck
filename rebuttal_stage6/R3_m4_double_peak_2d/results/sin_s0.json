@@ -1,0 +1,52 @@
+{
+ "cfg": {
+  "bank": "sin:200:1",
+  "spread": 2.0,
+  "M": 1000,
+  "epochs": 20000,
+  "d_base": 16,
+  "hidden": [
+   32,
+   32
+  ],
+  "opt": "muon",
+  "lr": 0.1,
+  "head_lr": 0.01,
+  "anneal_from": 1.5,
+  "a": 0.16,
+  "warm": 0.1,
+  "ramp": 0.55,
+  "adv_every": 10,
+  "adv_steps": 5,
+  "lr_test": 0.01,
+  "seed": 0,
+  "n_eval": 200000
+ },
+ "train_time_s": 277.2974410057068,
+ "loss_first": 2.8333773612976074,
+ "loss_final": 0.007424622308462858,
+ "diverged": false,
+ "hellinger": 0.28530560795350796,
+ "tv": 0.19637976138234597,
+ "frac_upper": 0.51028,
+ "stray_frac": 0.122375,
+ "saddle_frac": 0.11694,
+ "stray_frac_true": 2.8288401997395445e-05,
+ "saddle_frac_true": 3.1827339141161304e-18,
+ "well_std_along_true": 0.07154171037648094,
+ "well_std_across_true": 0.07080132898971651,
+ "well_centre_true": 0.9949085549319678,
+ "upper_centre": [
+  0.9912728071212769,
+  0.9939113259315491
+ ],
+ "upper_std_along": 0.08041324566036724,
+ "upper_std_across": 0.060676633344332945,
+ "lower_centre": [
+  -0.9854833483695984,
+  -0.998988687992096
+ ],
+ "lower_std_along": 0.08018156123629243,
+ "lower_std_across": 0.06065506901838072,
+ "tag": "sin_s0"
+}

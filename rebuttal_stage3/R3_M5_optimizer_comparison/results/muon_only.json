@@ -1,0 +1,19 @@
+{
+  "hellinger": 0.09140215938786289,
+  "tv": 0.055261135404976056,
+  "frac_right": 0.49676,
+  "well_balance_err": 0.0032400000000000206,
+  "peak_learned": 1.342499999999999,
+  "peak_true": 1.2692972848149957,
+  "peak_overshoot": 1.0576718441461668,
+  "bridge_learned": 0.05323,
+  "bridge_true": 0.01552204893564343,
+  "bridge_ratio": 3.429315306291004,
+  "std_learned": 0.9548632502555847,
+  "std_true": 0.9718737881119411,
+  "muon_lr": 0.2,
+  "adamw_lr": 0.002,
+  "train_time_s": 101.56985020637512,
+  "n_epochs": 16000,
+  "seed": 0
+}

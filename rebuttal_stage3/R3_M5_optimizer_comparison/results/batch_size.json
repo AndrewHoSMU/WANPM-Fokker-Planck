@@ -1,0 +1,62 @@
+[
+  {
+    "M": 1000,
+    "K": 100,
+    "seed": 0,
+    "diverged": false,
+    "train_time_s": 60.78607439994812,
+    "hellinger": 0.09910682548589148,
+    "tv": 0.08357213820622346,
+    "well_balance_err": 0.033745000000000025,
+    "peak_overshoot": 1.1994825941992842,
+    "bridge_ratio": 3.074336397073205,
+    "std_learned": 0.958004355430603,
+    "label": "M=1000, K=100  (Sec. 4.2 baseline)",
+    "barrier_frac": 0.5998289786496013
+  },
+  {
+    "M": 2000,
+    "K": 100,
+    "seed": 0,
+    "diverged": false,
+    "train_time_s": 89.10279989242554,
+    "hellinger": 0.0826110918754994,
+    "tv": 0.056697310423597665,
+    "well_balance_err": 0.02483000000000002,
+    "peak_overshoot": 1.1108508754160857,
+    "bridge_ratio": 2.7280547932536647,
+    "std_learned": 0.9673617482185364,
+    "label": "M=2000, K=100  (M alone)",
+    "barrier_frac": 0.6756497536954363
+  },
+  {
+    "M": 1000,
+    "K": 1000,
+    "seed": 0,
+    "diverged": false,
+    "train_time_s": 90.19118547439575,
+    "hellinger": 0.09132487560603361,
+    "tv": 0.05935841694847323,
+    "well_balance_err": 0.0029799999999999827,
+    "peak_overshoot": 0.9607678316098699,
+    "bridge_ratio": 3.2688983400564635,
+    "std_learned": 0.9629675149917603,
+    "label": "M=1000, K=1000 (K alone)",
+    "barrier_frac": 0.8070795546268601
+  },
+  {
+    "M": 2000,
+    "K": 2000,
+    "seed": 0,
+    "diverged": false,
+    "train_time_s": 162.3591549396515,
+    "hellinger": 0.10899424024537746,
+    "tv": 0.11067008328412448,
+    "well_balance_err": 0.004709999999999992,
+    "peak_overshoot": 1.0669289347746342,
+    "bridge_ratio": 2.765420994223959,
+    "std_learned": 0.9618765711784363,
+    "label": "M=2000, K=2000 (requested)",
+    "barrier_frac": 0.4042709828978942
+  }
+]

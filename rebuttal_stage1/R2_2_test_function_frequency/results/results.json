@@ -1,0 +1,13 @@
+{
+  "lr_test": 0.7,
+  "K": 200,
+  "d_base": 4,
+  "n_epochs": 20000,
+  "train_time_s": 68.6125967502594,
+  "final_loss": 0.03933005779981613,
+  "loss_at_epoch0": 5.521949768066406,
+  "mean_per_testfunc_drift_norm": 0.4783021807670593,
+  "max_per_testfunc_drift_norm": 4.1621599197387695,
+  "mean_initial_w_norm": 1.384562373161316,
+  "mean_final_w_norm": 1.8550419807434082
+}

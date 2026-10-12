@@ -1,0 +1,7 @@
+[heat_sanity] heat-equation sanity check, lam_ic=10.0, N_r=20000, params=102954
+  == end of round k=1 (20 epochs) [120s]   t=0.0: relL2=9.85e-01 relKL=1.36e+00   t=0.5: relL2=9.78e-01 relKL=1.08e+00   t=1.0: relL2=9.69e-01 relKL=9.01e-01
+  == end of round k=2 (40 epochs) [372s]   t=0.0: relL2=1.28e-02 relKL=1.04e-03   t=0.5: relL2=1.40e-02 relKL=1.69e-03   t=1.0: relL2=1.50e-02 relKL=1.88e-03
+  == end of round k=3 (80 epochs) [872s]   t=0.0: relL2=2.56e-03 relKL=2.15e-04   t=0.5: relL2=4.18e-03 relKL=4.05e-04   t=1.0: relL2=4.45e-03 relKL=4.35e-04
+  == end of round k=4 (160 epochs) [1834s]   t=0.0: relL2=1.44e-03 relKL=1.33e-04   t=0.5: relL2=2.35e-03 relKL=1.52e-04   t=1.0: relL2=2.37e-03 relKL=1.77e-04
+  == end of round k=5 (320 epochs) [3596s]   t=0.0: relL2=1.20e-03 relKL=8.11e-05   t=0.5: relL2=2.11e-03 relKL=1.40e-04   t=1.0: relL2=2.64e-03 relKL=9.82e-05
+paper (k=5, t=1): relL2 ~ 2e-3, relKL ~ 5e-5

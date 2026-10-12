@@ -1,0 +1,62 @@
+[
+  {
+    "example": "dp2d",
+    "opt": "Adam",
+    "lr": 0.01,
+    "d_base": 16,
+    "diverged": false,
+    "train_time_s": 907.3125610351562,
+    "hellinger": 0.11737791490276846,
+    "frac_upper": 0.482435,
+    "well_balance_err": 0.017564999999999997,
+    "saddle_frac": 0.014275
+  },
+  {
+    "example": "dp2d",
+    "opt": "Muon",
+    "lr": 0.03,
+    "d_base": 16,
+    "diverged": false,
+    "train_time_s": 1263.248262643814,
+    "hellinger": 0.18120284544931442,
+    "frac_upper": 0.489615,
+    "well_balance_err": 0.010384999999999978,
+    "saddle_frac": 0.043645
+  },
+  {
+    "example": "dp2d",
+    "opt": "Muon",
+    "lr": 0.1,
+    "d_base": 16,
+    "diverged": false,
+    "train_time_s": 1238.275627374649,
+    "hellinger": 0.08128089540164657,
+    "frac_upper": 0.493995,
+    "well_balance_err": 0.006004999999999983,
+    "saddle_frac": 0.00076
+  },
+  {
+    "example": "dp2d",
+    "opt": "Muon",
+    "lr": 0.2,
+    "d_base": 16,
+    "diverged": false,
+    "train_time_s": 1239.747383594513,
+    "hellinger": 0.23473383782956617,
+    "frac_upper": 0.49737,
+    "well_balance_err": 0.002630000000000021,
+    "saddle_frac": 0.08586
+  },
+  {
+    "example": "dp2d",
+    "opt": "Muon",
+    "lr": 0.5,
+    "d_base": 16,
+    "diverged": false,
+    "train_time_s": 1245.6202924251556,
+    "hellinger": 0.5213135102522144,
+    "frac_upper": 0.49316,
+    "well_balance_err": 0.006840000000000013,
+    "saddle_frac": 0.32864
+  }
+]

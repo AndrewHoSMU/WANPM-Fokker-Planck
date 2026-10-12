@@ -1,0 +1,26 @@
+device: cuda
+  epoch      0/20000  loss=2.475704e+00
+  epoch   4000/20000  loss=1.469120e-02
+  epoch   8000/20000  loss=2.167188e-02
+  epoch  12000/20000  loss=2.112426e-02
+  epoch  16000/20000  loss=1.132897e-02
+  epoch  19999/20000  loss=1.536323e-02
+training time: 140.9s
+
+Saved plot to C:\Users\andre\OneDrive\×ÀÃæ\Duke2026Fall\WANPM-FP-review-01\FP_0817_codes\rebuttal_stage6\R2_3_ring_radial\results_r2_2_rerun/frequency_analysis.png
+{
+  "lr_test": 0.7,
+  "K": 200,
+  "d_base": 4,
+  "n_epochs": 20000,
+  "train_time_s": 140.90038871765137,
+  "final_loss": 0.02423417940735817,
+  "loss_at_epoch0": 2.4757039546966553,
+  "mean_per_testfunc_drift_norm": 0.18617969751358032,
+  "max_per_testfunc_drift_norm": 0.5867929458618164,
+  "mean_initial_w_norm": 1.384562373161316,
+  "mean_final_w_norm": 1.5684963464736938
+}
+loss over the last 80% of training: 10th-90th percentile 0.014 - 0.032, median 0.022
+test functions whose |w| changed by less than 0.05 over the second half: 84 / 200; by more than 0.2: 11
+{"lr_test": 0.7, "K": 200, "d_base": 4, "n_epochs": 20000, "train_time_s": 140.9004, "final_loss": 0.0242, "loss_at_epoch0": 2.4757, "mean_per_testfunc_drift_norm": 0.1862, "max_per_testfunc_drift_norm": 0.5868, "mean_initial_w_norm": 1.3846, "mean_final_w_norm": 1.5685}

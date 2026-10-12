@@ -1,0 +1,8 @@
+seed 0 frozen       mean=2.0347 std=0.9349 W1=0.0519 KS=0.0242 evalL=1.60e-03 wshift=0.000 [22s]
+seed 0 adversarial  mean=1.9861 std=0.9463 W1=0.0372 KS=0.0172 evalL=5.56e-04 wshift=0.113 [61s]
+seed 0 adv_strong   mean=1.8802 std=1.9123 W1=0.5982 KS=0.1119 evalL=2.94e-02 wshift=2.307 [104s]
+seed 1 frozen       mean=1.9967 std=0.9495 W1=0.0550 KS=0.0241 evalL=5.14e-03 wshift=0.000 [134s]
+seed 1 adversarial  mean=2.0408 std=0.9361 W1=0.0561 KS=0.0219 evalL=1.18e-03 wshift=0.171 [179s]
+seed 1 adv_strong   mean=nan std=nan W1=nan KS=nan evalL=nan wshift=nan [231s]
+seed 2 frozen       mean=1.9504 std=0.9531 W1=0.0627 KS=0.0328 evalL=4.83e-03 wshift=0.000 [254s]
+seed 2 adversarial  mean=1.8341 std=0.9626 W1=0.1677 KS=0.0560 evalL=1.94e-03 wshift=0.324 [294s]

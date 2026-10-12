@@ -1,0 +1,26 @@
+device: cuda
+CLOSER WELLS: V(x) = (x^2 - 0.7^2)^2 + 0.1x,  sigma^2=0.3
+  well separation 1.40  (vs 2.00 for the R1.5 example -- 30% closer)
+  true split: left=0.6885  right=0.3115  (R1.5's was 0.784 / 0.216)
+  true mean=-0.2614  std=0.5976
+
+[manuscript] seed=0 ...
+    frac_right=0.3819 (true 0.3115)  H=0.1972  captured=67.3%  (68s)
+[manuscript] seed=1 ...
+    frac_right=0.3865 (true 0.3115)  H=0.1618  captured=65.0%  (68s)
+[manuscript] seed=2 ...
+    frac_right=0.3639 (true 0.3115)  H=0.1870  captured=75.6%  (68s)
+[mixed] seed=0 ...
+    frac_right=0.3351 (true 0.3115)  H=0.0296  captured=90.4%  (128s)
+[mixed] seed=1 ...
+    frac_right=0.3279 (true 0.3115)  H=0.0307  captured=95.0%  (129s)
+[mixed] seed=2 ...
+    frac_right=0.3595 (true 0.3115)  H=0.0433  captured=76.3%  (130s)
+
+========================================================================
+config               frac_right           captured        H ok
+manuscript     0.3774+/-0.0098       69.3%+/-4.5       0.1820 3/3
+mixed          0.3408+/-0.0135       87.2%+/-7.9       0.0345 3/3
+true                     0.3115              100.0%
+
+  wrote C:\Users\andre\OneDrive\×ÀÃæ\Duke2026Fall\WANPM-FP-review-01\FP_0817_codes\rebuttal_stage4\R1_5_asymmetric_muon\results\closer_wells.png

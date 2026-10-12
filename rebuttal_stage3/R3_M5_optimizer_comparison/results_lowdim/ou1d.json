@@ -1,0 +1,67 @@
+[
+  {
+    "example": "ou1d",
+    "opt": "Adam",
+    "lr": 0.01,
+    "d_base": 1,
+    "diverged": false,
+    "train_time_s": 22.910403966903687,
+    "hellinger": 0.15212481986903365,
+    "mean": 1.9903943538665771,
+    "std": 0.9762619137763977,
+    "mean_true": 2.0,
+    "std_true": 1.0
+  },
+  {
+    "example": "ou1d",
+    "opt": "Muon",
+    "lr": 0.03,
+    "d_base": 1,
+    "diverged": false,
+    "train_time_s": 50.654789209365845,
+    "hellinger": 0.3194869381046912,
+    "mean": 1.9785165786743164,
+    "std": 0.976702094078064,
+    "mean_true": 2.0,
+    "std_true": 1.0
+  },
+  {
+    "example": "ou1d",
+    "opt": "Muon",
+    "lr": 0.1,
+    "d_base": 1,
+    "diverged": false,
+    "train_time_s": 64.67803049087524,
+    "hellinger": 0.6504714113591091,
+    "mean": 2.014294385910034,
+    "std": 0.9601247310638428,
+    "mean_true": 2.0,
+    "std_true": 1.0
+  },
+  {
+    "example": "ou1d",
+    "opt": "Muon",
+    "lr": 0.2,
+    "d_base": 1,
+    "diverged": false,
+    "train_time_s": 65.09583401679993,
+    "hellinger": 0.8047700231887693,
+    "mean": 1.9856352806091309,
+    "std": 0.934061586856842,
+    "mean_true": 2.0,
+    "std_true": 1.0
+  },
+  {
+    "example": "ou1d",
+    "opt": "Muon",
+    "lr": 0.5,
+    "d_base": 1,
+    "diverged": false,
+    "train_time_s": 63.97987198829651,
+    "hellinger": 0.8068558509877508,
+    "mean": 1.8915940523147583,
+    "std": 1.0104783773422241,
+    "mean_true": 2.0,
+    "std_true": 1.0
+  }
+]

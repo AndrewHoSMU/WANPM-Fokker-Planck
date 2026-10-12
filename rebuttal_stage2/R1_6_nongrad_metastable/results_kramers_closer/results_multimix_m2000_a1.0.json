@@ -1,0 +1,30 @@
+{
+  "a_well": 1.0,
+  "gamma": 1.0,
+  "T": 0.25,
+  "connectivity": 0.01831563888873418,
+  "rel_barrier": 8.0,
+  "true_frac_right": 0.49999999999999994,
+  "true_v_std": 0.5,
+  "records": [
+    {
+      "config": "multimix",
+      "seed": 0,
+      "n_epochs": 35000,
+      "train_time_s": 868.8774576187134,
+      "diverged": false,
+      "hellinger": 0.10890783161602992,
+      "tv": 0.07102753391948266,
+      "frac_right": 0.502585,
+      "frac_right_true": 0.49999999999999994,
+      "ts_ratio": 0.001564437343452247,
+      "ts_ratio_true": 0.01831563888873418,
+      "v_std": 0.4878259003162384,
+      "v_std_true": 0.5,
+      "x_std": 0.9741255044937134,
+      "frac_in_window": 1.0,
+      "optimizer": "Muon",
+      "lr_gen": 0.2
+    }
+  ]
+}

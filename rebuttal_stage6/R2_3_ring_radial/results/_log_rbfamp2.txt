@@ -1,0 +1,9 @@
+P1_mex4_rbf2x10_s2                       std=1.063 iqr=0.973 peak=1.04 Hr=0.084 H2d=0.144 angTV=0.020 in=0.0097 rmean=1.940 loss=5.85e-02 |w|=1.96 (645s)
+P1_mex4_rbf2x20_s2                       std=1.071 iqr=1.079 peak=0.93 Hr=0.098 H2d=0.166 angTV=0.032 in=0.0099 rmean=1.976 loss=2.06e-01 |w|=1.98 (640s)
+P1_mex4_rbf2x20_s1                       std=1.034 iqr=1.007 peak=0.96 Hr=0.064 H2d=0.156 angTV=0.036 in=0.0079 rmean=1.978 loss=2.12e-01 |w|=2.05 (645s)
+P1_mex4_rbf2x20_s0                       std=1.111 iqr=1.092 peak=0.91 Hr=0.072 H2d=0.162 angTV=0.039 in=0.0097 rmean=1.990 loss=2.31e-01 |w|=2.04 (651s)
+P1_mex4_rbf2x40_s1                       std=1.128 iqr=1.048 peak=0.94 Hr=0.068 H2d=0.151 angTV=0.053 in=0.0106 rmean=1.988 loss=1.09e+00 |w|=2.14 (663s)
+P1_mex4_rbf2x40_s2                       std=1.089 iqr=1.028 peak=0.92 Hr=0.081 H2d=0.182 angTV=0.050 in=0.0085 rmean=1.961 loss=9.93e-01 |w|=2.06 (663s)
+P1_mex4_rbf2x10_s3                       std=1.111 iqr=1.070 peak=0.99 Hr=0.082 H2d=0.141 angTV=0.028 in=0.0102 rmean=1.993 loss=5.94e-02 |w|=1.97 (668s)
+P1_mex4_rbf2x40_s0                       std=1.064 iqr=1.037 peak=0.98 Hr=0.088 H2d=0.184 angTV=0.069 in=0.0102 rmean=1.974 loss=1.10e+00 |w|=2.14 (671s)
+ALLDONE

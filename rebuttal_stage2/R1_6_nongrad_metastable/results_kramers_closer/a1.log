@@ -1,0 +1,26 @@
+device: cuda
+KRAMERS CLOSER WELLS: U(x) = (x^2 - 1.0^2)^2,  gamma=1.0, T=0.25
+  well separation 2.00  (vs 2.00 current)
+  relative barrier 2*dU/T = 8.00   connectivity rho*(0)/rho*_peak = 0.0183
+  true frac(x>0) = 0.5000 (0.5 by symmetry)   true v std = 0.5000
+  epochs=35000  seeds=1  configs=['multimix']  optimizer=Muon lr_gen=0.2
+
+[multimix] a=1 seed=0 ...
+    epoch      0/35000  T=1.000  loss=5.2094e-01
+    epoch   4000/35000  T=0.995  loss=4.6594e-03
+    epoch   8000/35000  T=0.890  loss=7.1837e-03
+    epoch  12000/35000  T=0.684  loss=3.3666e-03
+    epoch  16000/35000  T=0.455  loss=2.5666e-03
+    epoch  20000/35000  T=0.291  loss=2.5781e-03
+    epoch  24000/35000  T=0.250  loss=1.7977e-03
+    epoch  28000/35000  T=0.250  loss=2.2510e-03
+    epoch  32000/35000  T=0.250  loss=8.5443e-04
+    epoch  34999/35000  T=0.250  loss=1.4872e-03
+    frac_right=0.5026  H=0.1089  TV=0.0710  ts_ratio=0.002 (true 0.018)  v_std=0.4878  (869s)
+
+==============================================================================
+a=1  connectivity=0.0183  2dU/T=8.00
+config                      H               TV         ts_ratio        v_std
+multimix      0.1089+/-0.0000   0.0710+/-0.0000    0.002+/-0.000   0.4878+/-0.0000
+true                   0.0000           0.0000            0.018       0.5000
+  wrote C:\Users\andre\OneDrive\×ÀÃæ\Duke2026Fall\WANPM-FP-review-01\FP_0817_codes\rebuttal_stage2\R1_6_nongrad_metastable\results_kramers_closer\kramers_closer_multimix_m2000_a1.0.png

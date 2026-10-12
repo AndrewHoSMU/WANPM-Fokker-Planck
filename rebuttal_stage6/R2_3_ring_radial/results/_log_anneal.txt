@@ -1,0 +1,12 @@
+P1_base_an4_s1                           std=1.220 iqr=0.812 peak=1.58 Hr=0.199 H2d=0.334 angTV=0.099 in=0.0263 rmean=1.926 loss=1.35e-02 |w|=1.29 (312s)P1_base_an2_s1                           std=1.199 iqr=0.860 peak=1.24 Hr=0.133 H2d=0.288 angTV=0.106 in=0.0214 rmean=1.945 loss=1.56e-02 |w|=1.34 (312s)P1_base_an2_s0                           std=1.160 iqr=0.999 peak=1.01 Hr=0.123 H2d=0.260 angTV=0.074 in=0.0167 rmean=1.958 loss=1.49e-02 |w|=1.29 (311s)
+
+
+P1_base_an4_s0                           std=1.125 iqr=0.897 peak=1.18 Hr=0.102 H2d=0.221 angTV=0.134 in=0.0144 rmean=1.976 loss=1.52e-02 |w|=1.30 (316s)
+P1_g4_40_an2_s1                          std=1.172 iqr=0.996 peak=1.02 Hr=0.111 H2d=0.187 angTV=0.023 in=0.0181 rmean=1.947 loss=1.29e-02 |w|=2.40 (544s)
+P1_g4_40_an2_s0                          std=1.151 iqr=1.002 peak=1.06 Hr=0.096 H2d=0.161 angTV=0.021 in=0.0149 rmean=1.980 loss=1.44e-02 |w|=2.41 (547s)
+P1_base_an9_s0                           std=1.137 iqr=0.797 peak=1.46 Hr=0.140 H2d=0.224 angTV=0.095 in=0.0157 rmean=1.962 loss=1.62e-02 |w|=1.33 (290s)
+P1_base_an9_s1                           std=1.253 iqr=0.878 peak=1.28 Hr=0.134 H2d=0.323 angTV=0.109 in=0.0245 rmean=1.955 loss=1.39e-02 |w|=1.31 (291s)
+P1_g4_40_an4_s0                          std=1.160 iqr=0.975 peak=1.07 Hr=0.110 H2d=0.182 angTV=0.021 in=0.0170 rmean=1.953 loss=1.44e-02 |w|=2.41 (466s)
+P1_g4_40_an4_s1                          std=1.145 iqr=0.953 peak=1.03 Hr=0.146 H2d=0.198 angTV=0.026 in=0.0177 rmean=1.948 loss=1.27e-02 |w|=2.41 (467s)
+P1_g4_40_an9_s0                          std=1.164 iqr=0.970 peak=1.05 Hr=0.095 H2d=0.154 angTV=0.024 in=0.0158 rmean=1.973 loss=1.54e-02 |w|=2.45 (357s)
+P1_g4_40_an9_s1                          std=1.173 iqr=0.974 peak=1.02 Hr=0.110 H2d=0.159 angTV=0.032 in=0.0178 rmean=1.953 loss=1.33e-02 |w|=2.44 (355s)

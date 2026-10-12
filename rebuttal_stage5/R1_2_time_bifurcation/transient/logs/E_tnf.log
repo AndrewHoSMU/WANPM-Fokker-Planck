@@ -1,0 +1,71 @@
+[E_tnf] t-NF case E sigma^2=1.0  L=8 width=128 spline=0 N_r=100000 batch=4000 lam_ic=10.0  params=137272
+  round 0 ep   0/20  L_r=3.504e-01  L_ic=3.511e-03  [6s]
+  round 0 ep   5/20  L_r=1.848e-01  L_ic=1.380e-03  [36s]
+  round 0 ep  10/20  L_r=1.464e-01  L_ic=1.398e-03  [65s]
+  round 0 ep  15/20  L_r=1.265e-01  L_ic=1.449e-03  [94s]
+  round 0 ep  19/20  L_r=1.239e-01  L_ic=1.267e-03  [117s]
+  == end of round 0: t=0.2 pi+=0.523 sw2=0.961 | t=1.0 pi+=0.510 sw2=0.996  (finite samples 1.000)
+  round 1 ep   0/30  L_r=4.490e-01  L_ic=1.047e-02  [126s]
+  round 1 ep   5/30  L_r=1.209e-01  L_ic=4.517e-03  [156s]
+  round 1 ep  10/30  L_r=1.073e-01  L_ic=3.295e-03  [185s]
+  round 1 ep  15/30  L_r=9.889e-02  L_ic=3.017e-03  [214s]
+  round 1 ep  20/30  L_r=9.129e-02  L_ic=2.740e-03  [243s]
+  round 1 ep  25/30  L_r=8.776e-02  L_ic=2.518e-03  [272s]
+  round 1 ep  29/30  L_r=8.610e-02  L_ic=2.409e-03  [295s]
+  == end of round 1: t=0.2 pi+=0.312 sw2=29.967 | t=1.0 pi+=0.237 sw2=55.334  (finite samples 1.000)
+  round 2 ep   0/45  L_r=5.547e+01  L_ic=2.302e-02  [303s]
+  round 2 ep   5/45  L_r=9.953e-02  L_ic=2.575e-03  [334s]
+  round 2 ep  10/45  L_r=8.535e-02  L_ic=1.786e-03  [365s]
+  round 2 ep  15/45  L_r=7.951e-02  L_ic=1.767e-03  [395s]
+  round 2 ep  20/45  L_r=9.098e-02  L_ic=2.386e-03  [424s]
+  round 2 ep  25/45  L_r=7.264e-02  L_ic=1.354e-03  [453s]
+  round 2 ep  30/45  L_r=7.176e-02  L_ic=1.597e-03  [482s]
+  round 2 ep  35/45  L_r=7.066e-02  L_ic=1.438e-03  [511s]
+  round 2 ep  40/45  L_r=6.903e-02  L_ic=1.563e-03  [540s]
+  round 2 ep  44/45  L_r=7.864e-02  L_ic=1.523e-03  [564s]
+  == end of round 2: t=0.2 pi+=0.184 sw2=5.907 | t=1.0 pi+=0.040 sw2=15.082  (finite samples 1.000)
+  round 3 ep   0/68  L_r=6.288e+01  L_ic=1.572e-02  [572s]
+  round 3 ep   5/68  L_r=8.994e-02  L_ic=1.917e-03  [603s]
+  round 3 ep  10/68  L_r=8.119e-02  L_ic=1.676e-03  [632s]
+  round 3 ep  15/68  L_r=7.447e-02  L_ic=1.429e-03  [662s]
+  round 3 ep  20/68  L_r=7.138e-02  L_ic=1.305e-03  [692s]
+  round 3 ep  25/68  L_r=7.209e-02  L_ic=1.296e-03  [722s]
+  round 3 ep  30/68  L_r=7.127e-02  L_ic=1.263e-03  [751s]
+  round 3 ep  35/68  L_r=6.723e-02  L_ic=1.161e-03  [781s]
+  round 3 ep  40/68  L_r=6.564e-02  L_ic=1.065e-03  [811s]
+  round 3 ep  45/68  L_r=6.972e-02  L_ic=1.241e-03  [841s]
+  round 3 ep  50/68  L_r=6.429e-02  L_ic=1.036e-03  [870s]
+  round 3 ep  55/68  L_r=6.596e-02  L_ic=1.221e-03  [900s]
+  round 3 ep  60/68  L_r=6.036e-02  L_ic=9.037e-04  [930s]
+  round 3 ep  65/68  L_r=6.925e-02  L_ic=1.078e-03  [959s]
+  round 3 ep  67/68  L_r=5.823e-02  L_ic=8.352e-04  [971s]
+  == end of round 3: t=0.2 pi+=0.224 sw2=13.658 | t=1.0 pi+=0.041 sw2=26.236  (finite samples 1.000)
+  round 4 ep   0/101  L_r=1.426e+02  L_ic=1.246e-02  [980s]
+  round 4 ep   5/101  L_r=1.230e-01  L_ic=2.490e-03  [1012s]
+  round 4 ep  10/101  L_r=1.032e-01  L_ic=1.838e-03  [1042s]
+  round 4 ep  15/101  L_r=8.345e-02  L_ic=1.610e-03  [1072s]
+  round 4 ep  20/101  L_r=8.124e-02  L_ic=1.557e-03  [1102s]
+  round 4 ep  25/101  L_r=7.805e-02  L_ic=1.450e-03  [1135s]
+  round 4 ep  30/101  L_r=7.833e-02  L_ic=1.538e-03  [1167s]
+  round 4 ep  35/101  L_r=7.332e-02  L_ic=1.239e-03  [1197s]
+  round 4 ep  40/101  L_r=7.343e-02  L_ic=1.295e-03  [1225s]
+  round 4 ep  45/101  L_r=7.036e-02  L_ic=1.232e-03  [1253s]
+  round 4 ep  50/101  L_r=6.557e-02  L_ic=1.168e-03  [1282s]
+  round 4 ep  55/101  L_r=6.432e-02  L_ic=1.121e-03  [1310s]
+  round 4 ep  60/101  L_r=6.750e-02  L_ic=1.188e-03  [1338s]
+  round 4 ep  65/101  L_r=6.007e-02  L_ic=1.093e-03  [1367s]
+  round 4 ep  70/101  L_r=6.441e-02  L_ic=1.173e-03  [1395s]
+  round 4 ep  75/101  L_r=5.590e-02  L_ic=9.864e-04  [1425s]
+  round 4 ep  80/101  L_r=6.580e-02  L_ic=1.182e-03  [1454s]
+  round 4 ep  85/101  L_r=5.573e-02  L_ic=9.351e-04  [1482s]
+  round 4 ep  90/101  L_r=5.754e-02  L_ic=1.130e-03  [1511s]
+  round 4 ep  95/101  L_r=5.624e-02  L_ic=1.093e-03  [1541s]
+  round 4 ep 100/101  L_r=5.674e-02  L_ic=1.092e-03  [1571s]
+  == end of round 4: t=0.2 pi+=0.188 sw2=16.279 | t=1.0 pi+=0.003 sw2=27.545  (finite samples 1.000)
+
+[E_tnf] done in 1573s.  metrics vs reference (noise floor in brackets):
+  t=0.05  pi+=0.310 sw2=11.5600[0.0031] hell_u=0.142[0.007] saddle=0.1309 well_std(u,v)=(0.357,0.322)  nll_ref=1.993
+  t=0.1   pi+=0.274 sw2=13.1341[0.0032] hell_u=0.169[0.007] saddle=0.1026 well_std(u,v)=(0.436,0.290)  nll_ref=2.016
+  t=0.2   pi+=0.184 sw2=16.2466[0.0026] hell_u=0.222[0.007] saddle=0.0543 well_std(u,v)=(0.518,0.229)  nll_ref=2.271
+  t=0.5   pi+=0.040 sw2=23.0941[0.0095] hell_u=0.449[0.008] saddle=0.0100 well_std(u,v)=(0.653,0.273)  nll_ref=3.646
+  t=1.0   pi+=0.003 sw2=27.4484[0.0313] hell_u=0.670[0.007] saddle=0.0011 well_std(u,v)=(0.808,0.639)  nll_ref=7.049

@@ -1,0 +1,9 @@
+a_well=0.7  true_frac_right=0.3115  true_mean=-0.2614
+[mixed-bank] seed=0 ...
+    frac_right=0.3406 (true 0.3115)  H=0.0351  captured=87.8%  final_loss=6.615e-04  (95s)
+[mixed-bank] seed=1 ...
+    frac_right=0.3041 (true 0.3115)  H=0.0553  captured=103.9%  final_loss=1.296e-03  (95s)
+[mixed-bank] seed=2 ...
+    frac_right=0.3674 (true 0.3115)  H=0.0510  captured=75.9%  final_loss=4.250e-04  (100s)
+
+captured 89.2% +/- 11.5   H=0.0471

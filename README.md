@@ -3,7 +3,7 @@
 Source code and results of the numerical experiments added, re-run or carried out for the
 revision of
 
-> A. Q. He and W. Cai, *Neural Pushforward Sampler for Transient Multi-modal and Singular
+> A. Q. He and W. Cai, *Neural Pushforward Sampler for Transient Multimodal and Singular
 > Distributions from Fokker鈥揚lanck Equations with Adversarial Training*, submitted to
 > J. Comput. Phys. (JCOMP-D-26-00768; earlier version arXiv:2509.14575).
 
